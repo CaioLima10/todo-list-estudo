@@ -1,7 +1,7 @@
 export function App() {
   return (
     <>
-      <div>App</div>
+      <div className="bg-red-500 w-full h-screen">App</div>
     </>
   )
 }
