@@ -1,7 +1,11 @@
+import { Text } from "./components/text/text";
+
 export function App() {
   return (
     <>
-      <div className="text-shadow-pink-base w-full h-screen">Hello world!</div>
+      <Text as="h1" children="hello world" variant={"body-md-regular"}/>
+      <Text  children="hello world" variant={"bold-md"}/>
+      <Text as="h1" children="hello world" variant={"body-sm-semibold"}/>
     </>
   )
 }
