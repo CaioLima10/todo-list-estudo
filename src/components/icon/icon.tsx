@@ -1,5 +1,5 @@
 import type { VariantProps } from "class-variance-authority"
-import { iconVariants } from "./icon-variant-cva"
+import { iconVariants } from "./icon-variants-cva"
 
 
 interface IconProps extends React.ComponentProps<'svg'>, VariantProps<typeof iconVariants>{
