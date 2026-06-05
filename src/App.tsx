@@ -7,6 +7,7 @@ import { Icon } from "./components/icon/icon";
 import { Badge } from "./components/badge/badge";
 import { Button } from "./components/button/button";
 import { ButtonIcon } from "./components/buttonIcon/button-icon";
+import { InputText } from "./components/input/input-text";
 
 export function App() {
   return (
@@ -25,6 +26,7 @@ export function App() {
       <ButtonIcon disabled icon={IconTrash}/> 
       <ButtonIcon  icon={IconTrash} variant="secondary"/> 
       <ButtonIcon  icon={IconTrash} variant="tertiary"/> 
+      <InputText placeholder="Digite seu nome" />
     </>
   )
 }
