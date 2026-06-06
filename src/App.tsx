@@ -8,6 +8,7 @@ import { Badge } from "./components/badge/badge";
 import { Button } from "./components/button/button";
 import { ButtonIcon } from "./components/buttonIcon/button-icon";
 import { InputText } from "./components/input/input-text";
+import { InputCheckbox } from "./components/inputCheckbox/input-checkbox";
 
 export function App() {
   return (
@@ -27,6 +28,7 @@ export function App() {
       <ButtonIcon  icon={IconTrash} variant="secondary"/> 
       <ButtonIcon  icon={IconTrash} variant="tertiary"/> 
       <InputText placeholder="Digite seu nome" />
+      <InputCheckbox type="checkbox"/>
     </>
   )
 }
