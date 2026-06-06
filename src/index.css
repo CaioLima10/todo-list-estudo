@@ -20,5 +20,4 @@
 
   --font-sans: 'Cairo', sans-serif;
 
-  --shadow-sm: 0px 4px 0px 8px rgba(45, 23, 45, 0.05);
-}
+--shadow-sm: 0 4px 12px rgba(0, 0, 0, 0.1);}

@@ -9,6 +9,7 @@ import { Button } from "./components/button/button";
 import { ButtonIcon } from "./components/buttonIcon/button-icon";
 import { InputText } from "./components/input/input-text";
 import { InputCheckbox } from "./components/inputCheckbox/input-checkbox";
+import { Card } from "./components/card/card";
 
 export function App() {
   return (
@@ -27,8 +28,10 @@ export function App() {
       <ButtonIcon disabled icon={IconTrash}/> 
       <ButtonIcon  icon={IconTrash} variant="secondary"/> 
       <ButtonIcon  icon={IconTrash} variant="tertiary"/> 
+      <Card className="w-[572px] h-[92px]" >
       <InputText placeholder="Digite seu nome" />
       <InputCheckbox type="checkbox"/>
+      </Card>
     </>
   )
 }
