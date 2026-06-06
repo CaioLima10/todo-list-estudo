@@ -3,6 +3,7 @@ import { cva } from "class-variance-authority";
 export const badgeVariants = cva(['inline-flex', 'items-center', 'justify-center', 'rounded-full'], {
   variants: {
     variant: {
+      none: 'none',
       primary: 'bg-green-light',
       secondary: 'bg-pink-light'
     },
@@ -19,6 +20,7 @@ export const badgeVariants = cva(['inline-flex', 'items-center', 'justify-center
 export const badgeTextVariants = cva('', {
   variants: {
     variant: {
+      none: 'none',
       primary: 'text-green-dark',
       secondary: 'text-pink-dark'
     }

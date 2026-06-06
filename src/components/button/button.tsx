@@ -9,6 +9,7 @@ interface ButtonProps extends Omit<React.ComponentProps<'button'>, 'size' | 'dis
 }
 
 export function Button({ variant, size, icon: IconComponents, className, children, ...props }: ButtonProps) {
+
 return (
   <button  className={buttonVariants({ variant, size, className, ...props })}>
     <Text className="flex items-center gap-2">

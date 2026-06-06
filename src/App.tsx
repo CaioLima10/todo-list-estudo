@@ -11,6 +11,7 @@ import { InputText } from "./components/input/input-text";
 import { InputCheckbox } from "./components/inputCheckbox/input-checkbox";
 import { Card } from "./components/card/card";
 import { Container } from "./components/container/container";
+import { Skeleton } from "./components/skeleton/skeleton";
 
 export function App() {
   return (
@@ -22,6 +23,7 @@ export function App() {
         <Icon svg={LogoTodoList}/>
         <Icon svg={IconSpinner}/>
         <Badge variant="primary" size="sm">5</Badge>
+        <Skeleton rounded={'full'} className="w-6 h-6"/>
         <Badge variant="secondary" size="sm">2 de 5</Badge>
         <Button disabled icon={IconPlus}>Nova tarefa</Button>
         <Button icon={IconPlus}>Nova tarefa</Button>
@@ -34,6 +36,11 @@ export function App() {
           <InputText placeholder="Digite seu nome" />
           <InputCheckbox type="checkbox"/>
         </Card>
+      </div>
+      <div className={'flex flex-col gap-2'}>
+        <Skeleton rounded={'full'} className={'w-5 h-5'}/>
+        <Skeleton className={'w-5 h-5'}/>
+        <Skeleton className={'w-5 h-5'}/>
       </div>
     </Container>
   )
