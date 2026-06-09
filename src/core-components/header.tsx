@@ -4,7 +4,7 @@ import { Icon } from "../components/icon/icon";
 
 export function Header() {
   return(
-    <Container as="header">
+    <Container as="header" className="mt-3 md:mt-20">
       <Icon svg={Logo} />
     </Container>
   )
