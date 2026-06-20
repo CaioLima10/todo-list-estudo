@@ -1,6 +1,6 @@
 import { cva } from 'class-variance-authority'
 
-export const textVariants = cva(['font-sans', 'text-gray-400'], {
+export const textVariants = cva(['font-sans'], {
   variants: {
     variant: {
       'body-sm-semibold': 'text-sm leading-5 font-semibold',

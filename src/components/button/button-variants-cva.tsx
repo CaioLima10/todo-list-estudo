@@ -3,7 +3,7 @@ import { cva } from "class-variance-authority";
 export const buttonVariants = cva(['flex', 'items-center', 'justify-center', 'rounded-lg', 'group', 'transition'], {
   variants: {
     variant: {
-      primary: ['bg-gray-200', 'hover:bg-pink-light']
+      primary: ['bg-gray-200', 'hover:bg-pink-light', 'text-gray-400']
     },
     size: {
       md: ['px-4', 'py-5']

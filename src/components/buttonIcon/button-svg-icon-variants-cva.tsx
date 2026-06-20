@@ -3,9 +3,9 @@ import { cva } from "class-variance-authority";
 export const buttonSvgIconVariants = cva(['transition'], {
   variants: {
     variant: {
-      primary: ['fill-white'],
+      primary: ['fill-white', 'hover:fill-white'],
       secondary: ['fill-pink-base', 'group-hover:fill-white'],
-      tertiary: ['fill-pink-base'],  
+      tertiary: ['fill-gray-400'],  
     },
     size: {
       sm: ['w-4', 'h-4']
